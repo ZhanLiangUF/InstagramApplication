@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D66610CC972B3138CB17E44 /* Pods_lnstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229FA5CAAB5960016D5125FA /* Pods_lnstagram.framework */; };
 		B55BC4311C4C93A900255541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BC4301C4C93A900255541 /* AppDelegate.swift */; };
-		B55BC4331C4C93A900255541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BC4321C4C93A900255541 /* ViewController.swift */; };
 		B55BC4361C4C93A900255541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55BC4341C4C93A900255541 /* Main.storyboard */; };
 		B55BC4381C4C93A900255541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55BC4371C4C93A900255541 /* Assets.xcassets */; };
 		B55BC43B1C4C93A900255541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55BC4391C4C93A900255541 /* LaunchScreen.storyboard */; };
+		B55BC4451C4DA8AB00255541 /* lnstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BC4441C4DA8AB00255541 /* lnstagramViewController.swift */; };
+		B55BC44A1C4DB16A00255541 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BC4491C4DB16A00255541 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0338CE0FCBD3EF55D2CE2858 /* Pods-lnstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lnstagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-lnstagram/Pods-lnstagram.release.xcconfig"; sourceTree = "<group>"; };
+		229FA5CAAB5960016D5125FA /* Pods_lnstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lnstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55BC42D1C4C93A900255541 /* lnstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lnstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55BC4301C4C93A900255541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B55BC4321C4C93A900255541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B55BC4351C4C93A900255541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B55BC4371C4C93A900255541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B55BC43A1C4C93A900255541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B55BC43C1C4C93A900255541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55BC4441C4DA8AB00255541 /* lnstagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lnstagramViewController.swift; sourceTree = "<group>"; };
+		B55BC4491C4DB16A00255541 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		FB7D52AA9F8B07B96B5C130B /* Pods-lnstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lnstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lnstagram/Pods-lnstagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D66610CC972B3138CB17E44 /* Pods_lnstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		464BB02B4A41FA8027AB8509 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB7D52AA9F8B07B96B5C130B /* Pods-lnstagram.debug.xcconfig */,
+				0338CE0FCBD3EF55D2CE2858 /* Pods-lnstagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F04B40F82C879DB3D367B2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229FA5CAAB5960016D5125FA /* Pods_lnstagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B55BC4241C4C93A900255541 = {
 			isa = PBXGroup;
 			children = (
 				B55BC42F1C4C93A900255541 /* lnstagram */,
 				B55BC42E1C4C93A900255541 /* Products */,
+				464BB02B4A41FA8027AB8509 /* Pods */,
+				9F04B40F82C879DB3D367B2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,31 @@
 		B55BC42F1C4C93A900255541 /* lnstagram */ = {
 			isa = PBXGroup;
 			children = (
+				B55BC4481C4DB0D600255541 /* Views */,
+				B55BC4461C4DB0B300255541 /* view controllers */,
 				B55BC4301C4C93A900255541 /* AppDelegate.swift */,
-				B55BC4321C4C93A900255541 /* ViewController.swift */,
 				B55BC4341C4C93A900255541 /* Main.storyboard */,
 				B55BC4371C4C93A900255541 /* Assets.xcassets */,
 				B55BC4391C4C93A900255541 /* LaunchScreen.storyboard */,
 				B55BC43C1C4C93A900255541 /* Info.plist */,
 			);
 			path = lnstagram;
+			sourceTree = "<group>";
+		};
+		B55BC4461C4DB0B300255541 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B55BC4441C4DA8AB00255541 /* lnstagramViewController.swift */,
+			);
+			name = "view controllers";
+			sourceTree = "<group>";
+		};
+		B55BC4481C4DB0D600255541 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B55BC4491C4DB16A00255541 /* PhotoCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B55BC43F1C4C93A900255541 /* Build configuration list for PBXNativeTarget "lnstagram" */;
 			buildPhases = (
+				A0B2CDF6B42F90DF503B38BB /* Check Pods Manifest.lock */,
 				B55BC4291C4C93A900255541 /* Sources */,
 				B55BC42A1C4C93A900255541 /* Frameworks */,
 				B55BC42B1C4C93A900255541 /* Resources */,
+				9922CF91FF25D57EAF09C55C /* Embed Pods Frameworks */,
+				49A6EAF69933C1FACBA16A50 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +176,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49A6EAF69933C1FACBA16A50 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lnstagram/Pods-lnstagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9922CF91FF25D57EAF09C55C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lnstagram/Pods-lnstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B2CDF6B42F90DF503B38BB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B55BC4291C4C93A900255541 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55BC4331C4C93A900255541 /* ViewController.swift in Sources */,
+				B55BC4451C4DA8AB00255541 /* lnstagramViewController.swift in Sources */,
+				B55BC44A1C4DB16A00255541 /* PhotoCell.swift in Sources */,
 				B55BC4311C4C93A900255541 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +342,7 @@
 		};
 		B55BC4401C4C93A900255541 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7D52AA9F8B07B96B5C130B /* Pods-lnstagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lnstagram/Info.plist;
@@ -258,6 +354,7 @@
 		};
 		B55BC4411C4C93A900255541 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0338CE0FCBD3EF55D2CE2858 /* Pods-lnstagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lnstagram/Info.plist;
@@ -286,6 +383,7 @@
 				B55BC4411C4C93A900255541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
