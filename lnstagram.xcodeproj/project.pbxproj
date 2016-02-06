@@ -14,6 +14,7 @@
 		B55BC43B1C4C93A900255541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55BC4391C4C93A900255541 /* LaunchScreen.storyboard */; };
 		B55BC4451C4DA8AB00255541 /* lnstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BC4441C4DA8AB00255541 /* lnstagramViewController.swift */; };
 		B55BC44A1C4DB16A00255541 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BC4491C4DB16A00255541 /* PhotoCell.swift */; };
+		B59D72571C51AC7C00A8D7E4 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D72561C51AC7C00A8D7E4 /* PhotoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B55BC43C1C4C93A900255541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B55BC4441C4DA8AB00255541 /* lnstagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lnstagramViewController.swift; sourceTree = "<group>"; };
 		B55BC4491C4DB16A00255541 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		B59D72561C51AC7C00A8D7E4 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		FB7D52AA9F8B07B96B5C130B /* Pods-lnstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lnstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lnstagram/Pods-lnstagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,8 +87,8 @@
 				B55BC4301C4C93A900255541 /* AppDelegate.swift */,
 				B55BC4341C4C93A900255541 /* Main.storyboard */,
 				B55BC4371C4C93A900255541 /* Assets.xcassets */,
-				B55BC4391C4C93A900255541 /* LaunchScreen.storyboard */,
 				B55BC43C1C4C93A900255541 /* Info.plist */,
+				B55BC4391C4C93A900255541 /* LaunchScreen.storyboard */,
 			);
 			path = lnstagram;
 			sourceTree = "<group>";
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B55BC4441C4DA8AB00255541 /* lnstagramViewController.swift */,
+				B59D72561C51AC7C00A8D7E4 /* PhotoDetailsViewController.swift */,
 			);
 			name = "view controllers";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59D72571C51AC7C00A8D7E4 /* PhotoDetailsViewController.swift in Sources */,
 				B55BC4451C4DA8AB00255541 /* lnstagramViewController.swift in Sources */,
 				B55BC44A1C4DB16A00255541 /* PhotoCell.swift in Sources */,
 				B55BC4311C4C93A900255541 /* AppDelegate.swift in Sources */,
